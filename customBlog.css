@@ -1,0 +1,28 @@
+h3 { font-size: 16pt; margin-top: 20px; margin-bottom: 10px; }
+h4, h5 { font-size: 12pt; margin-top: 10px; }
+
+.text-info {
+	border-top: 2px solid #B7D2F2;
+	border-bottom: 2px solid #B7D2F2;
+	background: url('https://googledrive.com/host/0B3t1O1EOd_feZENqTmVyTVotakU/icon-text-info.png') no-repeat scroll 0% 0% #DBE7F8;
+}
+.text-alert {
+	border-top: 2px solid #FEABAB;
+	border-bottom: 2px solid #FEABAB;
+	background: url('https://googledrive.com/host/0B3t1O1EOd_feZENqTmVyTVotakU/icon-text-alert.png') no-repeat scroll 0% 0% #FFDFDF;
+}
+.text-tip {
+	border-top: 2px solid #FEEBAB;
+	border-bottom: 2px solid #FEEBAB;
+	background: url('https://googledrive.com/host/0B3t1O1EOd_feZENqTmVyTVotakU/icon-text-tip.png') no-repeat scroll 0% 0% #FFFFD5;
+}
+.text-comment {
+	border-top: 2px solid #FEEBAB;
+	border-bottom: 2px solid #FEEBAB;
+	background: url('https://googledrive.com/host/0B3t1O1EOd_feZENqTmVyTVotakU/icon-text-comment.png') no-repeat scroll 0% 0% #FEF8E1;
+}
+.text-info, .text-alert, .text-tip, .text-comment {
+	background-position: left center;
+	padding: 1em 1em 1em 5em;
+	min-height: 20px;
+}
